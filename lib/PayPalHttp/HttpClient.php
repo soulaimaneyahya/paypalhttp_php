@@ -26,6 +26,11 @@ class HttpClient
     public $encoder;
 
     /**
+     * @var Curl
+     */
+    public $curlCls;
+
+    /**
      * HttpClient constructor. Pass the environment you wish to make calls to.
      *
      * @param Environment $environment
